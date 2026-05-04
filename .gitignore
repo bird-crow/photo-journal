@@ -1,0 +1,5 @@
+.DS_Store
+*.py[cod]
+__pycache__/
+thumb*.b64
+photo-critique-journal.html

@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Photo Critique Journal</title>
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #f8f7f4;
+    --surface: #ffffff;
+    --surface2: #f2f0ec;
+    --border: #e0ddd8;
+    --accent: #1a1a1a;
+    --accent-light: #3d3d3d;
+    --muted: #888480;
+    --tag-tech: #dbeafe;
+    --tag-tech-text: #1e40af;
+    --tag-comp: #dcfce7;
+    --tag-comp-text: #166534;
+    --tag-time: #fef9c3;
+    --tag-time-text: #854d0e;
+    --tag-post: #f3e8ff;
+    --tag-post-text: #6b21a8;
+    --score-high: #16a34a;
+    --score-mid: #d97706;
+    --score-low: #dc2626;
+    --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--accent);
+    min-height: 100vh;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  header {
+    background: var(--accent);
+    color: #fff;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  header .logo {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+
+  header .logo span {
+    color: #d4a96a;
+  }
+
+  header .subtitle {
+    font-size: 12px;
+    color: #aaa;
+    margin-left: auto;
+  }
+
+  .empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    text-align: center;
+    color: var(--muted);
+    gap: 12px;
+  }
+
+  .empty-state .icon {
+    font-size: 48px;
+    opacity: 0.4;
+  }
+
+  .empty-state h2 {
+    font-size: 18px;
+    color: var(--accent-light);
+    font-weight: 600;
+  }
+
+  .empty-state p {
+    font-size: 13px;
+    max-width: 340px;
+  }
+
+  .sessions {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .session {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .session-header {
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background: var(--surface2);
+  }
+
+  .session-header-main {
+    flex: 1;
+  }
+
+  .session-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  .session-meta {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 2px;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .session-meta a {
+    color: #2563eb;
+    text-decoration: none;
+  }
+
+  .session-meta a:hover {
+    text-decoration: underline;
+  }
+
+  .session-badge {
+    background: var(--accent);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 20px;
+    white-space: nowrap;
+    align-self: flex-start;
+    margin-top: 2px;
+  }
+
+  .photos {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .photo-card {
+    padding: 20px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .photo-card:last-child {
+    border-bottom: none;
+  }
+
+  .photo-top-section {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 14px;
+    align-items: stretch;
+  }
+
+  .photo-thumb-wrap {
+    width: 45%;
+    max-width: 400px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #111;
+    line-height: 0;
+    align-self: flex-start;
+  }
+
+  .photo-thumb {
+    width: 100%;
+    max-height: 280px;
+    object-fit: contain;
+    display: block;
+    border-radius: 6px;
+  }
+
+  @media (max-width: 700px) {
+    .photo-top-section { flex-direction: column; }
+    .photo-thumb-wrap { width: 100%; max-width: none; }
+  }
+
+  .photo-title-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+
+  .photo-num {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--muted);
+    flex-shrink: 0;
+  }
+
+  .photo-name {
+    font-weight: 600;
+    font-size: 14px;
+    flex: 1;
+  }
+
+  .photo-link {
+    font-size: 12px;
+    color: #2563eb;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .photo-link:hover { text-decoration: underline; }
+
+  .overall-verdict {
+    flex: 1;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 13px;
+    font-style: italic;
+    color: var(--accent-light);
+    line-height: 1.6;
+  }
+
+  .overall-verdict strong {
+    font-style: normal;
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  .categories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  @media (max-width: 600px) {
+    .categories { grid-template-columns: 1fr; }
+  }
+
+  .category {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 14px;
+    background: var(--surface);
+  }
+
+  .category-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+  }
+
+  .category-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    border-radius: 4px;
+  }
+
+  .cat-tech .category-label { background: var(--tag-tech); color: var(--tag-tech-text); }
+  .cat-comp .category-label { background: var(--tag-comp); color: var(--tag-comp-text); }
+  .cat-time .category-label { background: var(--tag-time); color: var(--tag-time-text); }
+  .cat-post .category-label { background: var(--tag-post); color: var(--tag-post-text); }
+
+  .score-pip {
+    display: flex;
+    gap: 3px;
+  }
+
+  .pip {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--border);
+  }
+
+  .pip.filled-high { background: var(--score-high); }
+  .pip.filled-mid { background: var(--score-mid); }
+  .pip.filled-low { background: var(--score-low); }
+
+  .category-text {
+    font-size: 12.5px;
+    color: var(--accent-light);
+    line-height: 1.55;
+  }
+
+  .session-summary {
+    padding: 14px 20px;
+    border-top: 1px solid var(--border);
+    background: var(--surface2);
+    font-size: 12px;
+    color: var(--muted);
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .session-summary strong {
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  .verdict-tag {
+    display: inline-block;
+    padding: 1px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .verdict-publish { background: #dcfce7; color: #14532d; }
+  .verdict-selects { background: #dbeafe; color: #1e3a8a; }
+  .verdict-archive { background: #fef2f2; color: #7f1d1d; }
+  .verdict-rework { background: #fef9c3; color: #713f12; }
+
+  .album-index {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin: 24px 24px 0;
+  }
+
+  .album-index h2 {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: var(--muted);
+    margin-bottom: 10px;
+  }
+
+  .album-index ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .album-index li {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    font-size: 13px;
+  }
+
+  .album-index a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+    flex-shrink: 0;
+  }
+
+  .album-index a:hover { text-decoration: underline; }
+
+  .album-index .index-meta {
+    color: var(--muted);
+    font-size: 12px;
+  }
+
+  .photo-thumb-wrap a {
+    display: block;
+    line-height: 0;
+  }
+
+  .photo-thumb-wrap a:hover img {
+    opacity: 0.88;
+    transition: opacity 0.15s;
+  }
+
+  .social-picks {
+    border-top: 1px solid var(--border);
+    padding: 20px;
+  }
+
+  .social-picks-heading {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: var(--muted);
+    margin-bottom: 14px;
+  }
+
+  .social-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .social-table tr {
+    border-bottom: 1px solid var(--border);
+  }
+
+  .social-table tr:last-child {
+    border-bottom: none;
+  }
+
+  .social-table td {
+    padding: 10px 8px;
+    vertical-align: top;
+  }
+
+  .social-thumb-cell {
+    width: 100px;
+    padding-right: 14px !important;
+  }
+
+  .social-thumb-wrap {
+    width: 100px;
+    height: 67px;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #111;
+    flex-shrink: 0;
+    line-height: 0;
+  }
+
+  .social-thumb-wrap a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .social-thumb-wrap a:hover img { opacity: 0.85; transition: opacity 0.15s; }
+
+  .social-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 5px;
+  }
+
+  .social-num {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--muted);
+    width: 24px;
+    padding-top: 2px;
+  }
+
+  .social-content-cell { }
+
+  .social-photo-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent);
+    margin-bottom: 3px;
+  }
+
+  .social-note {
+    font-size: 12.5px;
+    color: var(--accent-light);
+    line-height: 1.55;
+  }
+
+  @media (max-width: 600px) {
+    .social-thumb-cell { width: 72px; }
+    .social-thumb-wrap { width: 72px; height: 48px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">📷 Photo<span>Edit</span> Journal</div>
+  <div class="subtitle">Sports Photography · Editor Review</div>
+</header>
+
+<div id="app"></div>
+
+<script>
+// ─── DATA STORE ─────────────────────────────────────────────────────────────
+// Sessions are stored here. Claude will update this array as critiques are added.
+const SESSIONS_KEY = 'photo_critique_sessions_v1';
+
+function getSessions() {
+  return window.__SESSIONS__ || [];
+}
+
+// ─── SCORE RENDERING ────────────────────────────────────────────────────────
+function renderPips(score, max = 5) {
+  // score: 1–5; color by level
+  const color = score >= 4 ? 'high' : score >= 3 ? 'mid' : 'low';
+  let html = '<div class="score-pip">';
+  for (let i = 1; i <= max; i++) {
+    html += `<div class="pip${i <= score ? ' filled-' + color : ''}"></div>`;
+  }
+  return html + '</div>';
+}
+
+// ─── VERDICT TAG ─────────────────────────────────────────────────────────────
+function verdictTag(v) {
+  const map = {
+    publish: ['publish', 'verdict-publish'],
+    selects: ['selects', 'verdict-selects'],
+    archive: ['archive', 'verdict-archive'],
+    rework:  ['rework',  'verdict-rework'],
+  };
+  const [label, cls] = map[v] || [v, ''];
+  return `<span class="verdict-tag ${cls}">${label}</span>`;
+}
+
+// ─── CATEGORY KEYS ───────────────────────────────────────────────────────────
+const CAT_META = {
+  technical:   { label: 'Technical',    cls: 'cat-tech' },
+  composition: { label: 'Composition',  cls: 'cat-comp' },
+  timing:      { label: 'Timing',       cls: 'cat-time' },
+  postprocess: { label: 'Post-Process', cls: 'cat-post' },
+};
+
+// ─── RENDER ──────────────────────────────────────────────────────────────────
+function renderPhoto(photo, idx) {
+  const cats = Object.entries(CAT_META).map(([key, meta]) => {
+    const cat = photo.categories?.[key];
+    if (!cat) return '';
+    return `
+      <div class="category ${meta.cls}">
+        <div class="category-header">
+          <span class="category-label">${meta.label}</span>
+          ${renderPips(cat.score)}
+        </div>
+        <div class="category-text">${cat.notes}</div>
+      </div>`;
+  }).join('');
+
+  const linkHtml = photo.link
+    ? `<a class="photo-link" href="${photo.link}" target="_blank">↗ view</a>` : '';
+
+  const thumbHtml = photo.thumb
+    ? `<div class="photo-thumb-wrap"><a href="${photo.link || '#'}" target="_blank" rel="noopener" title="Open in Google Photos"><img class="photo-thumb" src="${photo.thumb}" alt="${photo.name || ''}" loading="lazy"></a></div>` : '';
+
+  const verdictHtml = photo.verdict
+    ? `<div class="overall-verdict"><strong>Editor's take:</strong> ${photo.verdict}</div>` : '';
+
+  const topSection = (thumbHtml || verdictHtml)
+    ? `<div class="photo-top-section">${thumbHtml}${verdictHtml}</div>` : '';
+
+  return `
+    <div class="photo-card">
+      <div class="photo-title-row">
+        <div class="photo-num">${idx + 1}</div>
+        <div class="photo-name">${photo.name || 'Photo ' + (idx + 1)}</div>
+        ${linkHtml}
+      </div>
+      ${topSection}
+      <div class="categories">${cats}</div>
+    </div>`;
+}
+
+function renderSocialPicks(picks) {
+  if (!picks || picks.length === 0) return '';
+  const rows = picks.map((p, i) => {
+    const thumbHtml = p.thumb
+      ? `<div class="social-thumb-wrap"><a href="${p.link || '#'}" target="_blank" rel="noopener" title="Open in Google Photos"><img class="social-thumb" src="${p.thumb}" alt="${p.name || ''}" loading="lazy"></a></div>`
+      : '';
+    return `
+      <tr>
+        <td class="social-thumb-cell">${thumbHtml}</td>
+        <td class="social-num">${i + 1}</td>
+        <td class="social-content-cell">
+          <div class="social-photo-name">${p.name || ''}</div>
+          <div class="social-note">${p.social_note || ''}</div>
+        </td>
+      </tr>`;
+  }).join('');
+  return `
+    <div class="social-picks">
+      <div class="social-picks-heading">📱 Social media picks</div>
+      <table class="social-table"><tbody>${rows}</tbody></table>
+    </div>`;
+}
+
+function sessionId(session, idx) {
+  return `session-${(session.date || idx).toString().replace(/[^a-zA-Z0-9]/g, '-')}`;
+}
+
+function renderSession(session, idx) {
+  const id = sessionId(session, idx);
+  const photos = (session.photos || []).map((p, i) => renderPhoto(p, i)).join('');
+  const photoCount = session.photos?.length || 0;
+  const dateStr = session.date || '';
+  const linkHtml = session.link
+    ? `<a href="${session.link}" target="_blank">↗ album</a>` : '';
+
+  // Summary stats
+  const publishCount = (session.photos || []).filter(p => p.recommendation === 'publish').length;
+  const selectsCount = (session.photos || []).filter(p => p.recommendation === 'selects').length;
+
+  let summaryItems = [`<span>${photoCount} photo${photoCount !== 1 ? 's' : ''} reviewed</span>`];
+  if (publishCount) summaryItems.push(`<span><strong>${publishCount}</strong> publish-ready</span>`);
+  if (selectsCount) summaryItems.push(`<span><strong>${selectsCount}</strong> selects</span>`);
+
+  return `
+    <div class="session" id="${id}">
+      <div class="session-header">
+        <div class="session-header-main">
+          <div class="session-title">${session.title || 'Unnamed Session'}</div>
+          <div class="session-meta">
+            ${dateStr ? `<span>📅 ${dateStr}</span>` : ''}
+            ${session.sport ? `<span>🏅 ${session.sport}</span>` : ''}
+            ${linkHtml}
+          </div>
+        </div>
+        ${session.badge ? `<div class="session-badge">${session.badge}</div>` : ''}
+      </div>
+      <div class="photos">${photos}</div>
+      ${renderSocialPicks(session.social_picks)}
+      <div class="session-summary">${summaryItems.join('')}</div>
+    </div>`;
+}
+
+function renderIndex(sorted) {
+  if (sorted.length <= 1) return '';
+  const items = sorted.map((s, i) => {
+    const id = sessionId(s, i);
+    const count = s.photos?.length || 0;
+    const publishCount = (s.photos || []).filter(p => p.recommendation === 'publish').length;
+    const selectsCount = (s.photos || []).filter(p => p.recommendation === 'selects').length;
+    const statParts = [
+      s.date || '',
+      `${count} photo${count !== 1 ? 's' : ''}`,
+      publishCount ? `${publishCount} publish` : '',
+      selectsCount ? `${selectsCount} selects` : '',
+    ].filter(Boolean).join(' · ');
+    return `<li><a href="#${id}">${s.title || 'Unnamed Session'}</a><span class="index-meta">${statParts}</span></li>`;
+  }).join('');
+  return `<div class="album-index"><h2>Albums</h2><ul>${items}</ul></div>`;
+}
+
+function render() {
+  const sessions = getSessions();
+  const app = document.getElementById('app');
+
+  if (!sessions || sessions.length === 0) {
+    app.innerHTML = `
+      <div class="empty-state">
+        <div class="icon">🎞</div>
+        <h2>No critiques yet</h2>
+        <p>Share a Google Photos album link or individual photo link in the Cowork chat. Claude will review your shots and add the critique here.</p>
+      </div>`;
+    return;
+  }
+
+  // Most recent first
+  const sorted = [...sessions].sort((a, b) => new Date(b.date) - new Date(a.date));
+  app.innerHTML = renderIndex(sorted) + `<div class="sessions">${sorted.map((s, i) => renderSession(s, i)).join('')}</div>`;
+}
+
+// render() is called after __SESSIONS__ is defined below
+</script>
+
+
+<!-- SESSIONS DATA — Claude updates sessions.js to add new critiques -->
+<script src="sessions.js"></script>
+<script>render();</script>
+
+
+</body>
+</html>
