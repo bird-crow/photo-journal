@@ -1,5 +1,137 @@
 window.__SESSIONS__ = [
   {
+    title: "Seaforth v Northwood — Home Game Action and Celebration",
+    date: "2026-04-07",
+    sport: "Lacrosse",
+    badge: "13 photos",
+    link: "https://photos.app.goo.gl/mHhU4LGV6bGBWFLv9",
+    photos: [
+      {
+        name: "#14 Drives Through Northwood Double-Team",
+        link: "https://photos.google.com/share/AF1QipMCawS8EV4ukYavfLCKJsfJQxJGk52GLSrnV0c0Cgo3bdHcMSBCl9B6U4dTgRCKuA/photo/AF1QipNnvRRUt48wKA-k6BPpGW23gxaqs7mTynhZf2bX?key=UEhzZ2RhS3FpelZUNzRWYlhXQWphdk1YZWNoc2xB",
+        thumb: "https://lh3.googleusercontent.com/pw/AP1GczNcKb547R5N_-6z3kOXycSFxouFkkorP9bMSm4xMZ6X8K1aO5Y3aOh9_aGm3CbADRJw4bZ1AcaCNxKR87-3WdD2u4gonq-QlHRoDlnwQvBwlSQjmy0rBmn-dRWYY-pGojz-kTVRw0U7pQpZofjVVQ7cuA=w800",
+        verdict: "Seaforth #14 is caught in full stride against a Northwood double-team — #9 is right in his pocket reaching for a check while #13 trails just behind. The striding mechanics and defender pressure create genuine tension. The ball isn't visible in the frame, which is the main missed opportunity; a split-second earlier might have brought it into view. The 'INFLATE-A-PARTY' banner occupies a thick horizontal strip through the lower third but it's unavoidable at this venue. The late-afternoon directional sun is doing real work: the Seaforth whites pop against the dark tree line and #14's leading leg has good separation from the background Northwood defenders.",
+        recommendation: "selects",
+        categories: {
+          technical:   { score: 4, notes: "Sharp on #14 and #9; good motion-stopping shutter. Ball not in frame is the key miss." },
+          composition: { score: 3, notes: "#14's helmet is slightly cropped at top-left; the double-team on the right fills that side well. Banner is a distraction but venue-unavoidable." },
+          timing:      { score: 3, notes: "Good moment of contact pressure but the ball is missing — the decisive frame would show it in or near the stick pocket." },
+          postprocess: { score: 4, notes: "Exposure is well-handled; whites are clean without blowing. A slight clarity lift on the subjects would help them pop further from the midground defenders." }
+        }
+      },
+      {
+        name: "Post-Goal Celebration — #16, #9, #4 Wide with Northwood #14 at Edge",
+        link: "https://photos.google.com/share/AF1QipMCawS8EV4ukYavfLCKJsfJQxJGk52GLSrnV0c0Cgo3bdHcMSBCl9B6U4dTgRCKuA/photo/AF1QipPrGgDqUCWYjqDN9IHMxVKz_7mMnUb7qvGsvGBX?key=UEhzZ2RhS3FpelZUNzRWYlhXQWphdk1YZWNoc2xB",
+        thumb: "https://lh3.googleusercontent.com/pw/AP1GczP2UEKV-lt2vIip1-3opTf-w5mSn-J70wnh50KstQFs7NOm3gEPM7eJwPceb2iTlHYeRtPwUfNj9Z45lvxpkmZwqXUkMgMWvRpjbyD8ynkJ0RcPd38c9s7ze-JJZLNJfKTut7n0UxucU0ydCIiqA0Z3cQ=w800",
+        verdict: "The wider version of the post-goal celebration — #16 strides in from the left, #9 is centered back-to-camera, #4 raises his stick at right, and a Northwood #14 player enters frame at the far right edge. That Northwood presence is a compositional bonus: it juxtaposes Seaforth energy against the opponent's resignation without being staged. The 'Mechanical Bulls' red banner anchors the background without overwhelming. The biggest weakness is #9's back-to-camera position — his jersey number reads clearly but there's no face or emotional expression from the center of the frame.",
+        recommendation: "selects",
+        categories: {
+          technical:   { score: 4, notes: "All subjects sharp; directional late-afternoon light is warm and flattering on the white Seaforth jerseys." },
+          composition: { score: 4, notes: "Wide framing captures the full celebration group; Northwood player at right edge adds narrative context. #9 back-to-camera loses an emotional beat at center frame." },
+          timing:      { score: 4, notes: "#4's stick is raised, #16 is mid-stride, group energy reads as genuine post-play reaction rather than posed." },
+          postprocess: { score: 3, notes: "Could use a subtle warm grade to enhance the golden-hour feel. A slight vignette would focus attention on the subjects and reduce competition from the red banner." }
+        }
+      },
+      {
+        name: "Motion Composite — #8 and #4 Celebrate, Referee at Right",
+        link: "https://photos.google.com/share/AF1QipMCawS8EV4ukYavfLCKJsfJQxJGk52GLSrnV0c0Cgo3bdHcMSBCl9B6U4dTgRCKuA/photo/AF1QipMSkvvdNPSBF43PCLOaStO4V7F4KRsi3mbAki36?key=UEhzZ2RhS3FpelZUNzRWYlhXQWphdk1YZWNoc2xB",
+        thumb: "https://lh3.googleusercontent.com/pw/AP1GczPoPxRne9zdaJ2Z-NSBDHhLdQ6ORJBHtYdPVLczqQ7FI6iGcBEcjMyfbsCsF6VOzHo66jQhX6CTRCONFv2yJUHC35U5lpJD5XKGnq7YPx_CKGf_mT_dk9FQtYE-V7k-H_CZZvky6HoxeVPzrZKei09hpw=w800",
+        verdict: "A double-exposure effect gives the left player (#8, bent at the knee) a ghosted secondary silhouette, while #4 stands clearly at right facing camera with the referee and red 'JAP Mechanical Bulls' banner behind them. As a straight record frame this is a reject — the blur on #8 is too pronounced for editorial use — but as an artistic artifact of the celebration sequence it has some merit. #4's face is well-lit and centered, which saves it from being a full discard. Best treated as a creative curiosity of the celebration sequence.",
+        recommendation: "archive",
+        categories: {
+          technical:   { score: 2, notes: "Motion blur/double-exposure on #8 is a technical failure — shutter too slow or camera moved mid-exposure during a fast celebration movement." },
+          composition: { score: 3, notes: "#4 is well-positioned facing camera at right-of-center; referee adds context. #8's ghost pulls the eye without rewarding it." },
+          timing:      { score: 3, notes: "Celebration energy is present but the technical issue undermines confidence that this is the best frame in the sequence." },
+          postprocess: { score: 3, notes: "Could lean into the double-exposure aesthetic with slight desaturation and contrast lift to make it feel intentional. As-is it reads as an accident." }
+        }
+      },
+      {
+        name: "Sideline Portrait — #8 Close-Up, Second Player Trailing",
+        link: "https://photos.google.com/share/AF1QipMCawS8EV4ukYavfLCKJsfJQxJGk52GLSrnV0c0Cgo3bdHcMSBCl9B6U4dTgRCKuA/photo/AF1QipNxHaXIGSvdvoNfm9o1GJ6KCbO2D2o5xQkZq8Oj?key=UEhzZ2RhS3FpelZUNzRWYlhXQWphdk1YZWNoc2xB",
+        thumb: "https://lh3.googleusercontent.com/pw/AP1GczMojSXk_9wv10laIoCinULsR3ZvGodb0b2kBb1exWIFQ3gKKFkuAmENS_pEb0l74S-l5jvdWf5IHBk3I7zAG5Fb1otLkvvhvuO1ipq9tRI8Z9oFbqhiXHkW4zO-uLoungWCLiLstkHFXpoy2VX1Hri6SQ=w800",
+        verdict: "A portrait-orientation sideline moment: Seaforth #8 stands tall in the foreground looking left, a second helmeted player trails behind. The very dark out-of-focus background strips away all venue distraction and lets the Seaforth whites isolate cleanly — this is the album's best background separation. The limitation is that the helmet visor partially obscures facial expression, and neither player appears to be in an emotionally peak moment; it reads more as between-play transit than confrontation. Still, the technical execution — focus, isolation, exposure — is the cleanest in the set.",
+        recommendation: "selects",
+        categories: {
+          technical:   { score: 5, notes: "Excellent sharpness on #8, clean subject isolation from the dark background. Exposure is spot-on for white jersey in low ambient light." },
+          composition: { score: 4, notes: "Portrait orientation works well; secondary player creates depth. Could be tighter on #8 to close the negative space on the right." },
+          timing:      { score: 3, notes: "Neither player is at an emotional or action peak — reads as between-play transit rather than confrontation or reaction." },
+          postprocess: { score: 4, notes: "Background bokeh is clean. A slight warming of skin tones visible through the visor would add life. Minimal processing required." }
+        }
+      },
+      {
+        name: "Body Contact Midfield — Attacker Bodied with Full Bench Behind",
+        link: "https://photos.google.com/share/AF1QipMCawS8EV4ukYavfLCKJsfJQxJGk52GLSrnV0c0Cgo3bdHcMSBCl9B6U4dTgRCKuA/photo/AF1QipOAPiyKuP8JZ-tFueBV8_1oTte2JGk36b9CQrii?key=UEhzZ2RhS3FpelZUNzRWYlhXQWphdk1YZWNoc2xB",
+        thumb: "https://lh3.googleusercontent.com/pw/AP1GczOZyK9eyY88C_-5GKzx9ssPJ7PmawMpR0y0tUBYRh6y5fbe9m0OhgzNZVMU40anjZK9PFmAlyu7g8BdTHmp-uNX9PVakC-bzLw9FTYQsPNK4yXysgRQ2A5kN09CY4a9uNnJ4xxEk5gJLMdYZUtqOyafzw=w800",
+        verdict: "The album's best action frame: a Seaforth attacker is being bodied hard by a Northwood defender while the entire Seaforth bench, coaches, and #3 watch from the left sideline. The ball appears in the lower frame and the physical engagement is sharp and clear. The bench-as-backdrop is a genuine compositional asset — the row of helmeted Seaforth players creates narrative context that most isolated action shots lack entirely. The coach in the jacket at far right and the referee add further depth. Only weakness: the Seaforth attacker's jersey number is obscured by the contact angle.",
+        recommendation: "publish",
+        categories: {
+          technical:   { score: 5, notes: "Excellent shutter speed stops all motion cleanly; both athletes sharp through the contact. Exposure handles bright whites and dark Northwood jersey well." },
+          composition: { score: 5, notes: "Bench crowd creates a compelling backdrop, physical engagement is centered, both athletes fully in frame. Referee and coach add storytelling layers." },
+          timing:      { score: 5, notes: "Peak contact — Northwood defender's weight fully committed, Seaforth attacker at full lean, ball visible in lower frame. This is the decisive moment." },
+          postprocess: { score: 4, notes: "Current exposure is clean. Shadows lift on the Northwood dark jersey and a touch of clarity at the contact point would be the only adjustments needed." }
+        }
+      },
+      {
+        name: "#33 Running Toward Camera — 'HAWKS SEAFORTH' Stadium Wall, #4 Trailing",
+        link: "https://photos.google.com/share/AF1QipMCawS8EV4ukYavfLCKJsfJQxJGk52GLSrnV0c0Cgo3bdHcMSBCl9B6U4dTgRCKuA/photo/AF1QipN_rCt3ev1ky4j3KVu8de8Ac0t39cKPnvhpa_p4?key=UEhzZ2RhS3FpelZUNzRWYlhXQWphdk1YZWNoc2xB",
+        thumb: "https://lh3.googleusercontent.com/pw/AP1GczMuVVhrKKIbbQ54A8ruI4Bo7wlLH3n7XCM3sEktFpaamiAEOUDloYy1eYOII0GjhRVSmdfiRRzjjHDePOtc00wDQ1rsAw6W37fEuF38L6etBESRvHAVzW519hsA9H56aasTxKzMQLK8RuXtNbEygyPJ9A=w800",
+        verdict: "Seaforth #33 runs toward camera with #4 trailing right behind, the 'HAWKS SEAFORTH' text painted on the stadium wall acting as a clean maroon venue identifier. Both players moving toward the lens creates depth and motion energy. The shot lacks a ball or opponent — it reads as a transition run rather than a contested play, which limits its editorial weight. However the directional light is beautiful: warm late-afternoon sun rims the subjects while the painted wall keeps the background graphic and location-specific rather than generic tree line.",
+        recommendation: "selects",
+        categories: {
+          technical:   { score: 4, notes: "Both players sharp in motion; stadium wall softly out of focus but readable. Good shutter choice for this pace." },
+          composition: { score: 4, notes: "Both athletes toward camera creates depth. Painted stadium wall is a clean, venue-specific backdrop. No opponent or ball is a narrative gap." },
+          timing:      { score: 3, notes: "Mid-stride for both players but no contest and no ball — hard to identify this as a decisive moment rather than transition footage." },
+          postprocess: { score: 4, notes: "Light is excellent — minimal work needed. Slight highlight recovery on #33's sun-struck right shoulder is the only adjustment." }
+        }
+      },
+      {
+        name: "Crease Scramble — Attacker at Ground Level, Northwood Goalie Behind Cage",
+        link: "https://photos.google.com/share/AF1QipMCawS8EV4ukYavfLCKJsfJQxJGk52GLSrnV0c0Cgo3bdHcMSBCl9B6U4dTgRCKuA/photo/AF1QipPdPEaO3-Puth39Sce_KQhm6L_HTvp19Q0Bq9ch?key=UEhzZ2RhS3FpelZUNzRWYlhXQWphdk1YZWNoc2xB",
+        thumb: "https://lh3.googleusercontent.com/pw/AP1GczPxz9JXZ6q0fT_DCNjgkTHLRLAzRXNSkP3QNd720ZbTcePQHpXmF1OLXZMeVUPnUy7DlaSDIalwe1FxfJI48K0p0dDBm7dzkCiQ5WmobqlnQWIeDh3-uA-VTjEh17foT6sxZvYUc-GHVW4gLAPtuVvCJA=w800",
+        verdict: "An unusual and visually layered portrait: the Seaforth attacker is bent nearly double at the crease going for a ground ball, while a Northwood defender's torso frames the right edge and another player's legs frame the left, and the Northwood goalie stands alert behind the cage in the background watching the scramble unfold. The three-layer depth — legs/players in foreground, attacker in midground, goalie in background — is rare in field lacrosse photography and immediately communicates the stakes of the moment. The ball isn't visible, which is the main editorial shortcoming; you can sense the scramble but not confirm it.",
+        recommendation: "publish",
+        categories: {
+          technical:   { score: 4, notes: "Good focus on the attacker at crease level; goalie in background is acceptably soft. Exposure handles the mixed light and shadow well." },
+          composition: { score: 5, notes: "Foreground legs create a natural frame, attacker bent in midground, goalie alert in background — a rare three-layer lacrosse composition. Portrait orientation is exactly right." },
+          timing:      { score: 4, notes: "Peak of the ground ball scramble posture; goalie's alert stance confirms this is a live ball situation. Ball visibility would elevate this to a 5." },
+          postprocess: { score: 3, notes: "The fence behind the cage adds visual noise. Shadow lift around the attacker's torso and a clarity boost on the primary subject would be the key adjustments." }
+        }
+      }
+    ],
+    social_picks: [
+      {
+        name: "Tight Celebration — #16, #9, #4",
+        thumb: "https://lh3.googleusercontent.com/pw/AP1GczPMqYP8s3VkhXhUzmAh9KwL2nGu4sTZ3i-O7LfRrwHwNRGdYvjLnZ81TZ2LXRgYfTNLZscQVFFWGC3Irzbm06vpjsqSOpvjgJzMARUib_ApUfiyiABfwIYrWeib2eFa8h4R--ULXJ3K5DatX4RrKnwEug=w800",
+        link: "https://photos.google.com/share/AF1QipMCawS8EV4ukYavfLCKJsfJQxJGk52GLSrnV0c0Cgo3bdHcMSBCl9B6U4dTgRCKuA/photo/AF1QipNr5HLY3Ow6GoEZm7ucgK_XVMZ8dV9uXfAHn-1K?key=UEhzZ2RhS3FpelZUNzRWYlhXQWphdk1YZWNoc2xB",
+        social_note: "Tighter crop of the celebration — #16, #9, #4 together. Good energy and jersey numbers clearly legible for tagging."
+      },
+      {
+        name: "Face-Off Battle — Seaforth vs. Northwood, #7 at Wing",
+        thumb: "https://lh3.googleusercontent.com/pw/AP1GczM3uD24bLFF_eZCGpqBJMNerf7pHvh8y1wIl9sZhSsuQuss7WcfdmTa7IpW9MU3GsMwpzqBDWdm0P1UD_33y8-GR37md5L4YUn37HbJhVL8mG9gd0tysvrlEXioviqv-AfQEwHO4mrfFRv5H4qW7l-xDA=w800",
+        link: "https://photos.google.com/share/AF1QipMCawS8EV4ukYavfLCKJsfJQxJGk52GLSrnV0c0Cgo3bdHcMSBCl9B6U4dTgRCKuA/photo/AF1QipPs36Hmqq6eV8zeUxUQEUXqiBc6tEPJn2ZW6KN5?key=UEhzZ2RhS3FpelZUNzRWYlhXQWphdk1YZWNoc2xB",
+        social_note: "Ground-level face-off with sticks tangled and #7 coiled at the wing ready to sprint. Strong game-action feel."
+      },
+      {
+        name: "Face-Off — Alternate Frame",
+        thumb: "https://lh3.googleusercontent.com/pw/AP1GczMfqdqeEVhrtmkBOvvzuWoF86lUbwAxQL8RC8lNBQVpJU5uAqdUPfiwIHhpfun9x5V7QlytR8VOSzzu1lm8QZ-AKxMXboEc-HneO7fDfBlE4yhXdgkBc5-IerbRhvTEVD8Cri66UffcFz5RCl6vwLcBbg=w800",
+        link: "https://photos.google.com/share/AF1QipMCawS8EV4ukYavfLCKJsfJQxJGk52GLSrnV0c0Cgo3bdHcMSBCl9B6U4dTgRCKuA/photo/AF1QipPJ56FYthGHX2xptQVkKR7YH9owYNBY916YglYC?key=UEhzZ2RhS3FpelZUNzRWYlhXQWphdk1YZWNoc2xB",
+        social_note: "Second frame of the same face-off sequence — compare with the previous pick and use whichever shows the ball more clearly. Use one, not both."
+      },
+      {
+        name: "#7 and #1 Walking — Open Field, Northwood Helmets Frame",
+        thumb: "https://lh3.googleusercontent.com/pw/AP1GczOOmLaCJCuAHc2szNDNbyQtzG58Gk3-Ob0sQxckm__Xzv3muSQQvfaCLXfH78cKOeppXcp7_oTAtbDDEpF8jEtGs53WSmxzY9kJqN3Iiuqcqi7rNVebpGiVzGdwd0itmauyBg9bBGISQ0X1SlAhpEOHXw=w800",
+        link: "https://photos.google.com/share/AF1QipMCawS8EV4ukYavfLCKJsfJQxJGk52GLSrnV0c0Cgo3bdHcMSBCl9B6U4dTgRCKuA/photo/AF1QipMQSDWw_tiv6fmO_l25l8D-L3V6ZfTgsFusse0B?key=UEhzZ2RhS3FpelZUNzRWYlhXQWphdk1YZWNoc2xB",
+        social_note: "Beautiful late-light frame: #7 and #1 walking together, Northwood helmets blurred in foreground as a natural frame. Clean open field, warm golden light."
+      },
+      {
+        name: "#7 and #11 Defensive Stance — Northwood #20 Foreground",
+        thumb: "https://lh3.googleusercontent.com/pw/AP1GczPsjEmmP-GUvCttkxe2ONcec6VS4zO4yHR67hmaGMFRnRpGO3HIYF69VV1_fZU_jjD2HarEuuxFXjwrUSQgrWVoqtsks1IbCd19P4rAz8ncU04209tYmxE__xjH6EGsKfRCRZhZduR1gxuohT5NOweNWA=w800",
+        link: "https://photos.google.com/share/AF1QipMCawS8EV4ukYavfLCKJsfJQxJGk52GLSrnV0c0Cgo3bdHcMSBCl9B6U4dTgRCKuA/photo/AF1QipPORwp-LLaj8lEfpgBWRyYaK4KCN06jP6_IewVj?key=UEhzZ2RhS3FpelZUNzRWYlhXQWphdk1YZWNoc2xB",
+        social_note: "#7 and #11 set in defensive positions with Northwood #20 filling the lower foreground. Warm late-game light, clean fence background — strong player profile shot."
+      }
+    ]
+  },
+  {
     title: "Christ School v Latin — Senior Day",
     date: "2026-04-25",
     sport: "Lacrosse",
