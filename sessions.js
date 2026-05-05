@@ -1,5 +1,144 @@
 window.__SESSIONS__ = [
   {
+    title: "Seaforth v Northwood — Full Game Coverage",
+    date: "2026-04-07",
+    sport: "Lacrosse",
+    badge: "54 photos",
+    link: "https://photos.app.goo.gl/mHhU4LGV6bGBWFLv9",
+    photos: [
+      {
+        name: "Midfield Battle — Seaforth vs Northwood #9",
+        link: "https://photos.google.com/share/AF1QipMCawS8EV4ukYavfLCKJsfJQxJGk52GLSrnV0c0Cgo3bdHcMSBCl9B6U4dTgRCKuA/photo/AF1QipNnvRRUt48wKA-k6BPpGW23gxaqs7mTynhZf2bX?key=UEhzZ2RhS3FpelZUNzRWYlhXQWphdk1YZWNoc2xB",
+        thumb: "https://lh3.googleusercontent.com/pw/AP1GczPMqYP8s3VkhXhUzmAh9KwL2nGu4sTZ3i-O7LfRrwHwNRGdYvjLnZ81TZ2LXRgYfTNLZscQVFFWGC3Irzbm06vpjsqSOpvjgJzMARUib_ApUfiyiABfwIYrWeib2eFa8h4R--ULXJ3K5DatX4RrKnwEug=w800",
+        verdict: "Seaforth drives hard into a Northwood cluster with #9 center-frame challenging and #13 visible right. The Canon R7 at 1/2500s locks both players razor-sharp with excellent exposure across both white and dark jerseys in afternoon light. The ball is not visible in frame, which undercuts the moment — without it, this reads as generic player contact rather than a contested possession. The Seaforth attacker's face is also turned away, losing identity.",
+        recommendation: "selects",
+        categories: {
+          technical:   { score: 4, notes: "1/2500s at ISO500 f/4 — no motion blur, clean exposure, good sharpness on all three visible players." },
+          composition: { score: 3, notes: "Busy four-player cluster with no ball in frame to anchor the action; Seaforth player facing away reduces appeal." },
+          timing:      { score: 3, notes: "Active contest moment but not the decisive split-second; no ball in frame reduces narrative clarity." },
+          postprocess: { score: 4, notes: "Warm afternoon light is well-rendered, shadow detail preserved in dark jerseys, no blown highlights on white." }
+        }
+      },
+      {
+        name: "Carrying Under the Bleachers — Seaforth Possession",
+        link: "https://photos.google.com/share/AF1QipMCawS8EV4ukYavfLCKJsfJQxJGk52GLSrnV0c0Cgo3bdHcMSBCl9B6U4dTgRCKuA/photo/AF1QipN_rCt3ev1ky4j3KVu8de8Ac0t39cKPnvhpa_p4?key=UEhzZ2RhS3FpelZUNzRWYlhXQWphdk1YZWNoc2xB",
+        thumb: "https://lh3.googleusercontent.com/pw/AP1GczMuVVhrKKIbbQ54A8ruI4Bo7wlLH3n7XCM3sEktFpaamiAEOUDloYy1eYOII0GjhRVSmdfiRRzjjHDePOtc00wDQ1rsAw6W37fEuF38L6etBESRvHAVzW519hsA9H56aasTxKzMQLK8RuXtNbEygyPJ9A=w800",
+        verdict: "A Seaforth player strides hard with the ball clearly visible in the stick pocket, with 'HAWKS SEAFORTH' painted on the home bleachers filling the entire background — an unusually strong environmental frame that roots this firmly in place and team identity. A second Seaforth player (#4) in the right background provides natural depth without cluttering the main subject. The warm afternoon sidelight is flattering and the exposure handles both the bright white jersey and the shadow detail well. This is one of the most publishable frames in the album.",
+        recommendation: "publish",
+        categories: {
+          technical:   { score: 4, notes: "Sharp focus on primary subject, good motion capture mid-stride, warm afternoon exposure handled cleanly." },
+          composition: { score: 5, notes: "'HAWKS SEAFORTH' bleacher text fills the background as a graphic environmental frame — exceptional use of venue; ball in stick completes the story." },
+          timing:      { score: 4, notes: "Ball is in stick, player fully committed to stride — strong carrying moment; not a contact peak but a compelling possession shot." },
+          postprocess: { score: 4, notes: "Warm directional afternoon light well-rendered; slight dehaze on background could sharpen the bleacher text further." }
+        }
+      },
+      {
+        name: "Ground Ball Scrum — Northwood Player Diving, Seaforth Converging",
+        link: "https://photos.google.com/share/AF1QipMCawS8EV4ukYavfLCKJsfJQxJGk52GLSrnV0c0Cgo3bdHcMSBCl9B6U4dTgRCKuA/photo/AF1QipPs36Hmqq6eV8zeUxUQEUXqiBc6tEPJn2ZW6KN5?key=UEhzZ2RhS3FpelZUNzRWYlhXQWphdk1YZWNoc2xB",
+        thumb: "https://lh3.googleusercontent.com/pw/AP1GczM3uD24bLFF_eZCGpqBJMNerf7pHvh8y1wIl9sZhSsuQuss7WcfdmTa7IpW9MU3GsMwpzqBDWdm0P1UD_33y8-GR37md5L4YUn37HbJhVL8mG9gd0tysvrlEXioviqv-AfQEwHO4mrfFRv5H4qW7l-xDA=w800",
+        verdict: "A Northwood player is fully committed to a ground ball with Seaforth players closing hard from both sides — #7 is visible striding in from the right, and grass/dirt displacement at the contact point adds real energy to the frame. Shot at 1/2500s at f/4 185mm ISO320, the Northwood player's body is acceptably sharp but the Seaforth stick on the left reads as motion-blur from the high-speed stick swing; at 1/2500s this is a focus miss rather than shutter speed. The diagonal convergence of four-plus players makes this a compelling ground ball story shot worth keeping.",
+        recommendation: "selects",
+        categories: {
+          technical:   { score: 3, notes: "1/2500s sufficient but the left Seaforth player's stick is soft — focus missed on that subject at f/4 with multi-directional movement." },
+          composition: { score: 4, notes: "Strong diagonal convergence of multiple players on the loose ball; sideline and #7 add depth; grass/dirt spray anchors the moment." },
+          timing:      { score: 4, notes: "Peak ground ball chaos — Northwood fully committed, Seaforth closing from both sides, contact point energy visible." },
+          postprocess: { score: 3, notes: "Slightly muted in the shadow areas; shadow lift and a contrast bump would bring out the dirt spray and green jersey detail." }
+        }
+      },
+      {
+        name: "Ball Mid-Air — Seaforth vs Northwood #6 Ground Ball Contest",
+        link: "https://photos.google.com/share/AF1QipMCawS8EV4ukYavfLCKJsfJQxJGk52GLSrnV0c0Cgo3bdHcMSBCl9B6U4dTgRCKuA/photo/AF1QipPku8Utek1gfJLXzNzcEZri8c76SQLoHjM3XHda?key=UEhzZ2RhS3FpelZUNzRWYlhXQWphdk1YZWNoc2xB",
+        thumb: "https://lh3.googleusercontent.com/pw/AP1GczOUHoUqAc7YmjKFcjc2NucsjwIIjzErrUicDKrwd-zJlSGphkyBqIrswgAnvSdNrdp4vQE7ugxJK8nUJlDn-iY_WKWp1h7QJXzka7qxhCr0VPbcbsYWQ0Ope_1570cvo6YvQQNbd0VWJY8dlGExQSXDhg=w800",
+        verdict: "The ball is clearly visible mid-flight between the Seaforth attacker and Northwood #6, whose sticks form a hard X at the peak of the ground ball contest — this is the defining moment of a contested possession and the timing is exceptional. At 280mm f/4 and 1/2500s the main subjects are sharp and the ball's position in the frame tells the story instantly. The referee in the background is a minor distraction and Northwood #21 is partially cropped at right, but neither undermines the decisive moment. The hard late-afternoon light at 5:10 PM creates deep facial shadows that need recovery in post.",
+        recommendation: "publish",
+        categories: {
+          technical:   { score: 4, notes: "Sharp on both main subjects at 280mm 1/2500s ISO250; slightly dark overall exposure from hard directional late-day light." },
+          composition: { score: 4, notes: "Ball mid-air is the natural focal anchor; crossing sticks create visual tension; referee in background and cropped #21 are acceptable sideline realities." },
+          timing:      { score: 5, notes: "Ball visible in the air between two fully committed players at peak stick contact — textbook decisive ground ball moment." },
+          postprocess: { score: 3, notes: "Hard 5 PM directional light creates blocked shadow on the left player's face; shadow recovery and slight exposure lift needed to bring out detail." }
+        }
+      },
+      {
+        name: "Ground Ball Contest — Seaforth #2 vs Northwood #6, Clean Background",
+        link: "https://photos.google.com/share/AF1QipMCawS8EV4ukYavfLCKJsfJQxJGk52GLSrnV0c0Cgo3bdHcMSBCl9B6U4dTgRCKuA/photo/AF1QipNHirYX5EecSH7Vbh_9UHtzbx18ug1KBe5VGeMN?key=UEhzZ2RhS3FpelZUNzRWYlhXQWphdk1YZWNoc2xB",
+        thumb: "https://lh3.googleusercontent.com/pw/AP1GczOGhYGRrI081nxu8l_SS6q-uXCcGastrp0zrSLks9QxlJGr9cA0OUU2G_c4hzbakqTlJfoXviwpuijLAtoY3t6DIdqOeNvfVR507LweKZw6mc7DYNfTS73KBaChW5KHCfAbp77zmi6miEQGq18Nat7niA=w800",
+        verdict: "Seaforth #2 is fighting Northwood #6 for a ground ball with the ball visible at their feet, both players fully committed and sharp at 280mm f/4 1/2500s. The maroon bleacher wall running clean across the background is exceptional — an unusually distraction-free background for a midfield contest. The significant limitation is that Seaforth #2 is completely facing away from camera, which erases identity and reduces the emotional connection to the shot. The ball on the ground (not airborne) also keeps this a step below the timing of photo 15.",
+        recommendation: "selects",
+        categories: {
+          technical:   { score: 4, notes: "32.3MP capture at 280mm f/4 1/2500s ISO250 — sharp on both subjects; slightly underexposed in midtones at 5:12 PM sun angle." },
+          composition: { score: 3, notes: "Clean maroon bleacher wall background is outstanding; but #2 is fully back-to-camera, losing subject identity — a significant compositional weakness." },
+          timing:      { score: 3, notes: "Active ground ball contest with ball visible at feet, but neither player is at peak extension; ball is down rather than mid-flight." },
+          postprocess: { score: 3, notes: "Harsh late-afternoon directional light; bright grass right-frame needs highlight recovery, shadow detail on left needs lifting." }
+        }
+      },
+      {
+        name: "Seaforth #11 Driving Under Pressure — Goal Posts in Background",
+        link: "https://photos.google.com/share/AF1QipMCawS8EV4ukYavfLCKJsfJQxJGk52GLSrnV0c0Cgo3bdHcMSBCl9B6U4dTgRCKuA/photo/AF1QipMFLWDZ_sUv508fcbb5qvnG-GCgNBB-mj8xGGGm?key=UEhzZ2RhS3FpelZUNzRWYlhXQWphdk1YZWNoc2xB",
+        thumb: "https://lh3.googleusercontent.com/pw/AP1GczNzDY2tb6CRg83a8AtAHzQqveheYutHQIdofejLZR7Qrv8bSwvrXRq0hoJUDF6Dn6LEfetVZRlJEnsQA4Ccbbbwm5YP_7HWi8ePNep4RG7LkKRqaWHJhRMi697WmuQP5E-to5JhnmF7uLuLuTqUEHQ6PA=w800",
+        verdict: "Seaforth #11 is mid-stride driving toward the goal with the ball clearly in the stick basket, a Northwood defender pressed right against their back adding urgency. The orange goal posts in the soft background place this firmly in the attack zone and give the shot narrative context. The 5:18 PM golden hour light wraps beautifully as rim lighting on #11's helmet and shoulders. Overall exposure is a stop underexposed from the hard directional late-day sun — shadow lift in post will reveal the Northwood defender's detail and bring this to its full potential.",
+        recommendation: "publish",
+        categories: {
+          technical:   { score: 4, notes: "Sharp at 280mm f/4 1/2500s ISO400; ball clearly visible in stick pocket; underexposed overall due to low-angle 5:18 PM sun — needs exposure lift." },
+          composition: { score: 4, notes: "Strong diagonal stride, SEAFORTH jersey fully readable, goal posts provide attack-zone context, close defender creates competitive pressure." },
+          timing:      { score: 4, notes: "Ball in stick, defender on back, mid-drive toward goal — compelling contested possession in scoring position." },
+          postprocess: { score: 3, notes: "Golden hour rim light is beautiful but overall underexposed; shadow lift on defender and slight exposure correction will unlock this shot." }
+        }
+      },
+      {
+        name: "1v1 Stick Check — Seaforth #5 Wide Stance vs Northwood #15",
+        link: "https://photos.google.com/share/AF1QipMCawS8EV4ukYavfLCKJsfJQxJGk52GLSrnV0c0Cgo3bdHcMSBCl9B6U4dTgRCKuA/photo/AF1QipPpd2MOb-IURx50zBSjSw2kGaQyc1hGpTYo5few?key=UEhzZ2RhS3FpelZUNzRWYlhXQWphdk1YZWNoc2xB",
+        thumb: "https://lh3.googleusercontent.com/pw/AP1GczOEP1jxyhi0yvA4pPuFjmFvwwqGen2bDrkfrrgnBo1dJfRCP0gIw4Tq0KaeqYqBJuVhozn6j1FmDPssYNWp6FyqAm394Gm431xCJgP7FOhZmD2nftNLtx6qOAAWtFAh_1LG7I-EZVNCq__u-WW8uR97lw=w800",
+        verdict: "Seaforth #5 is in a wide, low athletic stance with their stick at full extension, facing down a stick check from Northwood #15 — the crossed sticks form the natural center of the frame against a clean bleacher wall background. Shot at 5:33 PM as the light fades, 1/2000s at ISO800 keeps the subject acceptably sharp but Northwood #15 at the left edge of the f/4 focal plane is noticeably softer. The moment captures the athleticism of the defensive stance well, but neither player is at peak stick-contact — caught mid-challenge rather than at the decisive impact frame.",
+        recommendation: "selects",
+        categories: {
+          technical:   { score: 3, notes: "ISO800 at 5:33 PM manages the fading light; Seaforth #5 sharp but Northwood #15 at edge of f/4 focal plane is soft; slightly dark overall." },
+          composition: { score: 4, notes: "Strong 1v1 framing, crossed sticks as natural focal point, Seaforth #5 athletic wide stance reads powerfully, clean bleacher background." },
+          timing:      { score: 3, notes: "Mid-contest stick check — not the decisive impact moment; Seaforth #5's wide stance saves it from being purely transitional." },
+          postprocess: { score: 3, notes: "Flat and dark from late-day low light; shadow lift, contrast boost, and slight exposure correction needed; ISO800 grain should be manageable on R7." }
+        }
+      },
+      {
+        name: "Crease Drive — Northwood Attacker on Goal, Seaforth #14 #7 #4 Defending",
+        link: "https://photos.google.com/share/AF1QipMCawS8EV4ukYavfLCKJsfJQxJGk52GLSrnV0c0Cgo3bdHcMSBCl9B6U4dTgRCKuA/photo/AF1QipPbjRw4XViVCSbL8xONncpvQkmyvs6wGceClJhu?key=UEhzZ2RhS3FpelZUNzRWYlhXQWphdk1YZWNoc2xB",
+        thumb: "https://lh3.googleusercontent.com/pw/AP1GczMIFy_W7PvLK980nEW16UfUDV1oMc23J4EHv6GAT5yQ9WshLbOO83eOtrJ9MeIQn7bouir5YhnldSi3iqw6PfxQCmjZa0gfdicN25ELU4cN6WUNv-jHyMMCWBEd-uMOiV_yS8qm16-cgs7BEghw71lfbA=w800",
+        verdict: "A Northwood attacker drives on goal with Seaforth #14 in position at the crease and #7 and #4 converging from the right — this is exactly the crease coverage a game shoot needs, with goal, goalie, attacker, and defenders all readable in one frame. The serious limitation is a large bouncy castle directly behind the goal, its cartoon inflatable football, soccer ball, and basketball drawing the eye immediately away from the action. The late-afternoon golden light is flattering but the exposure is a touch dark.",
+        recommendation: "selects",
+        categories: {
+          technical:   { score: 3, notes: "Sharp on goal frame and defenders; attacker mid-drive has slight softness; underexposed from late-day low angle sun." },
+          composition: { score: 3, notes: "Excellent action coverage — goal, goalie, attacker, two defenders all in frame — but the bouncy castle with inflatable sports balls in background is a major distraction." },
+          timing:      { score: 4, notes: "Attacker fully committed to the crease drive with defenders closing — strong goal-mouth action moment." },
+          postprocess: { score: 3, notes: "Warm late-day light is appealing; exposure needs lifting; background bouncy castle is prominent and can't be cropped or easily removed." }
+        }
+      },
+      {
+        name: "Timeout — Coach Address, Full Seaforth Team Huddle",
+        link: "https://photos.google.com/share/AF1QipMCawS8EV4ukYavfLCKJsfJQxJGk52GLSrnV0c0Cgo3bdHcMSBCl9B6U4dTgRCKuA/photo/AF1QipMuT47chYt-z-wLFABtTIIrPweTypOKjwEvO8JI?key=UEhzZ2RhS3FpelZUNzRWYlhXQWphdk1YZWNoc2xB",
+        thumb: "https://lh3.googleusercontent.com/pw/AP1GczOazkWIz9GpwHGxDVbDl2jLngH1QtxIu1kBJTxbwnJt1mlX2yinAvjIOR3GtOTqiKyiEXYvdNtV4V9DDt0Kp-NeJPD1-dcOQJWsmdmKG7-6Vg3pgr2obtozMh5XDPrBAT-LJv7k3AGQrhupjd5dt-qt5Q=w800",
+        verdict: "Both coaches are visible center-frame in a late-game timeout huddle, one with arm raised mid-gesture to the full Seaforth team clustered around them — a necessary coverage shot that tells the sideline story and shows the coaching dynamic. The coach's raised arm is the energetic anchor of the composition. The exposure is dark at 5:49 PM ISO640, the 8MP file size suggests a crop from the original, and the background goal net adds visual noise. This is strong documentary coverage but not a standout photographic frame.",
+        recommendation: "selects",
+        categories: {
+          technical:   { score: 3, notes: "ISO640 manageable on R7, sharp on coaches and near players; 8MP suggests crop from original; slightly underexposed from late-day low light." },
+          composition: { score: 3, notes: "Huddle fills frame with coaches as natural focal point; raised arm adds energy; edges cramped with players cut off; background net is distracting." },
+          timing:      { score: 4, notes: "Coach mid-gesture to the team captures a genuine sideline moment — good narrative coverage of the coaching dynamic late in the game." },
+          postprocess: { score: 3, notes: "Dark from 5:49 PM low angle sun; shadow lift and exposure correction needed; warm golden tone is a positive element." }
+        }
+      },
+      {
+        name: "Post-Game — Team Gathering Near Goal, Scoreboard Visible",
+        link: "https://photos.google.com/share/AF1QipMCawS8EV4ukYavfLCKJsfJQxJGk52GLSrnV0c0Cgo3bdHcMSBCl9B6U4dTgRCKuA/photo/AF1QipPg8A8601RTJ2ZpLxGca_UkTWngE5QaLh3fsPha?key=UEhzZ2RhS3FpelZUNzRWYlhXQWphdk1YZWNoc2xB",
+        thumb: "https://lh3.googleusercontent.com/pw/AP1GczOvhSYrwRuxpbb-FnQ4eBAzmEWIhcmFKe0_RLFuvJXlySbxHP_T5dZf31FZ-8qJ1FPbqZPkEAd0pQ5K8_i0CLJIjmq_3X-8SN2fXNOLatyO8XWaEqQVtkwiRzh1U5MvwCcbt_uQNrLc5ys8AbHDcIPghg=w800",
+        verdict: "The Seaforth team is gathered near the goal end at 5:58 PM with the scoreboard visible in the background — context that signals the game's conclusion, and #6, #14, #10, and #17 are readable in the cluster. But this is post-game wind-down rather than active celebration: no raised sticks, no visible emotion peaks, and several players have their backs to camera. The exposure is the darkest of the set at near-sunset conditions. For complete game arc coverage it earns a place, but it doesn't deliver the celebration moment the end of the album deserves.",
+        recommendation: "archive",
+        categories: {
+          technical:   { score: 3, notes: "Sharp at 280mm f/4, but significantly underexposed from near-sunset 5:58 PM light; 1/2000s was unnecessary for a static scene." },
+          composition: { score: 3, notes: "Scoreboard provides game-end narrative context; goal net frames the right side; but many players are backs-to-camera with no clear emotional focal point." },
+          timing:      { score: 2, notes: "Post-game wind-down rather than peak celebration — players milling without visible joy, raised sticks, or any decisive emotional moment." },
+          postprocess: { score: 2, notes: "Heavy shadow lift and significant exposure correction required; near-sunset conditions have pushed the exposure well below usable without substantial post work." }
+        }
+      }
+    ]
+  },
+  {
     title: "Seaforth v Northwood — Home Game Action and Celebration",
     date: "2026-04-07",
     sport: "Lacrosse",
